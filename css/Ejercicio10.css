@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bae6e6;
+    padding: 20px;
+    text-align: center;
+}
+
+#contenedorTarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.tarjetaPokemon {
+    background: rgba(255, 255, 255, 0.829);
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+    box-shadow: 0 0 10px rgba(231, 183, 52, 0.74);
+    transition: transform 0.2s ease;
+}
+.tarjetaPokemon:hover {
+    transform: scale(1.03);
+}
+.tarjetaPokemon img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+.tarjetaPokemon p {
+    margin: 5px 0;
+    font-weight: bold;
+    color: #333;
+}
